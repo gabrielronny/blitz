@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center-form {
+    position: relative;
+    display: flex;
+    float: right;
+    width: calc(100% - 250px);
+    height: 800px;
+    background: transparent;
+    /* margin: 1.5em; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.form {
+    width: 90%;
+    height: 90%;
+    background: transparent;
+}
+
+.form p {
+    color: #069be0;
+    font-size: 22px;
+}
+
+.form p::after {
+    display: block;
+    content: "";
+    width: 120px;
+    height: 5px;
+    background: #069be0;
+}
+
+.btn-form {
+    float: left;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #069be0;
+}
+
+.btn-form i,
+.listBtn i {
+    margin-right: 5px;
+}
+
+.listBtn {
+    float: left;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #e8744a;
+    margin-left: 5px;
+}
+
+#lista {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: transparent;
+    top: 60px;
+    /*box-shadow: 0 0.175em 0.5em rgba(2,8,20,.1), 0 0.085em 0.175em rgba(2,8,20,.08);*/
+    border-radius: 5px;
+}
+
+.photo-form {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    background: #069be0;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100px;
+    text-align: center;
+}
+
+.photo-form img {
+    width: 150px;
+    height: 200px;
+}
+
+.lbPhoto {
+    text-align: center !important;
+}
+
+.btnActivate {
+    position: relative;
+    left: 120px;
+    font-size: 22px;
+    color: #069be0;
+}
+
+.icons{
+    width: 15px;
+    text-align: center;
+}
+
+.listaDiv{
+    width: 80%;
+}
+
+#destino{
+    float: right;
+}
+
+.artigoBtn{
+    width: 90%;
+}
+
+#destino{
+    margin: 0%;
+    padding: 0%;
+    display: block;
+    margin-left: -10px;
+
+}

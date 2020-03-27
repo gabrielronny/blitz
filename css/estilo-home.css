@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: grey;
+}
+
+.espaco-menu {
+    width: 100%;
+    height: 80px;
+    background: rgba(48, 48, 48, 0.959);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.menu {
+    width: 15%; 
+    float: right;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.logo-sistema-espaco {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+
+.logo-sistema{
+    width: 100px;
+    /* height: 70px; */
+    object-fit: cover;
+    padding: 10px;
+}
+
+.link-menu-home {
+    color: white;
+    text-decoration: none;
+}
+
+.link-menu-home:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.foto-perfil {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.item-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.home {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.bem-vindo {
+    color:rgb(226, 226, 226);
+    text-align: center;
+    font-size: 30px;
+}
+
+.info {
+    font-weight: bolder;
+    color: rgb(226, 226, 226);
+    font-size: 25px;
+}
+
+.btn-group {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.btn-inicio {
+    position: relative;
+    background: rgba(75, 75, 75, 0.959);
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.icon {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-btn {
+    width: 60%;
+    height: 70%;
+}
+
+.nome-opc {
+    position: absolute;
+    background: rgba(75, 75, 75, 0.959);
+    height: 10vh;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(189, 189, 189);
+}
+
+.link-btn {
+    margin: 15px;
+}
